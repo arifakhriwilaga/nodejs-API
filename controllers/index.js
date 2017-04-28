@@ -1,5 +1,5 @@
-var express = require('express')
-  , router = express.Router()
+var express = require('express'), 
+		router = express.Router()
 
 router.use('/comments', require('./comments'))
 router.use('/users', require('./users'))
